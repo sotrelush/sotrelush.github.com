@@ -50,4 +50,18 @@ table {
 	border-spacing: 0;
 }
 
+body { font-family: helvetica;
+	font-size: 10pt;
+	  margin:0 auto;
+  width:900px;
+  padding:20px;
+	}
+	
 
+h1 { 
+ font-size:14pt;
+ font-style:bold;
+ 
+}
+
+article { float:left; width:50%; }
