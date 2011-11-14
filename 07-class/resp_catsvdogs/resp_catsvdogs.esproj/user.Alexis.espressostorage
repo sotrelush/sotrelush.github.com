@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1095, 688}</string>
+		<string>{1047, 675}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/catsvdogs.esproj/</string>
+		<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/07-class/resp_catsvdogs/resp_catsvdogs.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{146, 839}</string>
+		<string>{62, 856}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/images</string>
+			<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/07-class/resp_catsvdogs/images</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -32,7 +32,7 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
+				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/07-class/resp_catsvdogs/baseline.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -40,11 +40,11 @@
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>URL</key>
-				<string>file:///Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
+				<string>file:///Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/07-class/resp_catsvdogs/index.html</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/baseline.css</string>
+				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/07-class/resp_catsvdogs/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
