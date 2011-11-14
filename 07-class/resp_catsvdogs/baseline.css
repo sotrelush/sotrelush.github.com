@@ -84,10 +84,10 @@ body {
     top:30px;
     padding-bottom: 40px;
 }
-img.logo { width: 775px;
+img.logo { width: 100%;
 	
 }
-img.blogpics { width: 375px;
+img.blogpics { width: 100%;
 	
 }
 a:link { 
@@ -173,33 +173,82 @@ ul {
 
 /* media queries */
 
-@media screen and (max-width:768px) {
-
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
     h1 { font: bold 2.2em Georgia, "Times New Roman", Times, serif;
-}
+  }
     #floatright {
-	left: 470px;
-    top: 1010px;
-	font-size: .8em;
-	padding: 10px;
+	 left: 470px;
+     top: 1010px;
+	 font-size: .8em;
+ 	 padding: 10px;
+  }
+
+    #floatleft {
+ 	 position: relative;
+     margin-left:20px;
+	 font-size: .8em;
+	 padding: 15px;
+	 top: 1050px;
+  }
+    img.logo { width: 100%;
+	
+  }
+    img.blogpics { width: 170%;
+	
+  }
+
+    .dogs, .cats {
+	 width: 550px;
+	 float: left;
+	 margin-right: 30px;
+	 padding: 20px;
+  }
+	
+    ul {
+		
+	 left:90px;
+	 width:800px;
+	 margin:5px 0px 5px 0px;
+	 overflow:hidden;
+	 font-size:.8em;
 }
 
-#floatleft {
-	position: relative;
-    margin-left:20px;
-	font-size: .8em;
-	padding: 15px;
-	top: 1050px;
-}
-img.logo { width: 775px;
-	
-}
-img.blogpics { width: 600px;
-	
-}
+@media only screen
+and (min-device-width : 480px) {
 
-.dogs, .cats {
-	width: 550px;
+    body {
+	 font-size: .8em
+  }
+    h1 { 
+     font: bold 1.6 em Georgia;
+  }
+    #floatright {
+	 left: 470px;
+     top: 1010px;
+	 font-size: .6em;
+	 padding: 10px;
+  }
+
+    #floatleft {
+	 position: relative;
+     margin-left:20px;
+   	 font-size: .6em;
+	 padding: 15px;
+	 top: 1050px;
+  }
+    img.logo { 
+     width: 60%;
+	
+  }
+   img.blogpics { 
+   width: 230px;
+	
+  }
+
+    .dogs, .cats {
+	width: 380px;
 	float: left;
 	margin-right: 30px;
 	padding: 20px;
@@ -211,48 +260,7 @@ ul {
 	 width:800px;
 	 margin:5px 0px 5px 0px;
 	 overflow:hidden;
-	 font-size:.8em;
+	 font-size:.75em;
 }
-@media screen and (max-width:480px) {
-
-h1 { font: bold 2.2em Georgia, "Times New Roman", Times, serif;
 }
-    #floatright {
-	left: 470px;
-    top: 1010px;
-	font-size: .6em;
-	padding: 10px;
-}
-
-#floatleft {
-	position: relative;
-    margin-left:20px;
-	font-size: .6em;
-	padding: 15px;
-	top: 1050px;
-}
-img.logo { width: 775px;
-	
-}
-img.blogpics { width: 600px;
-	
-}
-
-.dogs, .cats {
-	width: 400px;
-	float: left;
-	margin-right: 30px;
-	padding: 20px;
-}
-	
-ul {
-		
-	 left:90px;
-	 width:800px;
-	 margin:5px 0px 5px 0px;
-	 overflow:hidden;
-	 font-size:.8em;
-}
-
-	 
 
