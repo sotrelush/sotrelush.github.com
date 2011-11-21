@@ -9,20 +9,18 @@
 		<key>ContentSize</key>
 		<string>{1095, 688}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/catsvdogs.esproj/</string>
+		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/catsvdogsfonts.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{146, 839}</string>
+		<string>{39, 842}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
-		<array>
-			<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/images</string>
-		</array>
+		<array/>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
@@ -32,7 +30,7 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -44,7 +42,7 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/baseline.css</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/baseline.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

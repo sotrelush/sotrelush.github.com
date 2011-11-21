@@ -68,7 +68,10 @@ table {
 }
  
 .clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
+html[xmlns] .clearfix {
+	display: block;
+	text-align: center;
+}
 * html .clearfix { height: 1%; }
 
 /* my code */
@@ -81,9 +84,24 @@ html[xmlns] .clearfix { display: block; }
          url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
+    }
+    
+.fonthead {
+	font-family: 'LeagueGothicRegular';
+	text-transform:uppercase;
+	font-size: 138px;
+}    
+.fontheadand {
+	color: #aeaeae;
+	font: italic bold 46px/48px georgia;
+	border-color: #aeaeae;
+	border-top-style: double;
+	border-bottom-style: double;
+	border-width: 14px;
+	vertical-align: 29px;
+	
+}    
+   
 body {
 	font: 12pt georgia;
 }
@@ -92,6 +110,7 @@ body {
     left:175px;
     top:30px;
     padding-bottom: 40px;
+	font-weight: bold;
 }
 a:link { 
 	color: #ff6651;
