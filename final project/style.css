@@ -28,15 +28,14 @@
 
 
 body {
-	background: #FFFFFF;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	background: #FFFFFF url(images/tylabackground.png) repeat-y fixed;
+	font-family: 'Varela Round', 'Tahoma', sans-serif;	font-size: 14px;
 	color: #6a6a6a;
 }
 h1, h2, h3 {
 	margin-bottom: 1.5em;
 	letter-spacing: -0.05em;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Varela Round', 'Tahoma', sans-serif;	
 }
 
 h1, h1 a, h2, h2 a {
@@ -103,7 +102,7 @@ hr {
 #logo {
 	position: relative;
 	padding-top: 14px;
-	padding-bottom: 22px;
+	padding-bottom: 10px;
 	width: 870px;
 	height: 126px;
 	margin: 0 auto;
@@ -121,7 +120,8 @@ hr {
 #logo h2 {
 	position: relative;
 	left: 456px;
-	font: italic 32px/14px 'Snippet', sans-serif;
+	color:  #dcdcdc;
+	font: italic 32px/14px 'Varela Round', sans-serif;
 }
 
 #logo a {
@@ -135,6 +135,15 @@ hr {
 	padding-bottom: 5px;
 
 }
+#logopurp{
+	color: #958cd6;
+	
+}
+
+#logopink{
+	color: #ff638f;
+}
+
 
 /* Main Nav */
 
@@ -143,12 +152,12 @@ hr {
 	width: 960px;
 	height: 62px;
 	margin: 0 auto;
-	background: #ffbed5 url(images/img02.jpg) no-repeat;
+	background: #fff url(images/img02.gif) no-repeat;
 }
 
 #mainnav ul {
 	margin: 0;
-	padding: 17px 0px 0px 14px;
+	padding: 18px 0px 0px 26px;
 	list-style: none;
 	line-height: normal;
 	top: 200px;
@@ -156,7 +165,7 @@ hr {
 
 #mainnav li {
 	float: left;
-	padding: 0px 0px 0px 63px;
+	padding: 0px 0px 0px 53px;
 }
 
 #mainnav a {
@@ -167,7 +176,7 @@ hr {
 }
 #mainnav a:hover {
 	text-decoration: none;
-	color: #ff638f;
+	color: #958cd6;
 
 
 }
@@ -215,10 +224,15 @@ hr {
 	line-height: normal;
 }
 .post .other a {
-	text-decoration: italic;
 	color: #414141;
+	font-style: italic;
 }
 
+.post .other a: hover {
+	color: #958cd6;
+	font-style: italic;
+	
+}
 /* Sidebar */
 
 #sidebar {

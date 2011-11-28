@@ -9,11 +9,11 @@
 		<key>ContentSize</key>
 		<string>{1419, 738}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/final%20project.esproj/</string>
+		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project%20copy/final%20project.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{4, 844}</string>
+		<string>{231, 878}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -30,23 +30,19 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/index.html</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project%20copy/style.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project%20copy/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>Tyla Tech Genius: Kid Blogger Extrodinare</string>
-				<key>URL</key>
-				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/index.html</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/style.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>
