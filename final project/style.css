@@ -102,7 +102,7 @@ hr {
 #logo {
 	position: relative;
 	padding-top: 14px;
-	padding-bottom: 10px;
+	padding-bottom: 16px;
 	width: 870px;
 	height: 126px;
 	margin: 0 auto;
@@ -149,15 +149,18 @@ hr {
 
 #mainnav {
 	position: relative;
-	width: 960px;
-	height: 62px;
+	width: 634px;
+	height: 32px;
 	margin: 0 auto;
-	background: #fff url(images/img02.gif) no-repeat;
+	background: #dcdcdc no-repeat;
+	-moz-border-radius: 15px;
+border-radius: 15px;
+	top: 9px;
+	right: 136px;
 }
-
+	
 #mainnav ul {
 	margin: 0;
-	padding: 18px 0px 0px 26px;
 	list-style: none;
 	line-height: normal;
 	top: 200px;
@@ -165,11 +168,12 @@ hr {
 
 #mainnav li {
 	float: left;
-	padding: 0px 0px 0px 53px;
+	padding: 0px 0px 30px 52px;
+	line-height: 32px;
+
 }
 
 #mainnav a {
-	
 	text-decoration: none;
 	font-size: 22px;
 	color: #6a6a6a;
