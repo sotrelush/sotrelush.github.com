@@ -9,11 +9,11 @@
 		<key>ContentSize</key>
 		<string>{1095, 688}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/catsvdogs.esproj/</string>
+		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/catsvdogs.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{146, 839}</string>
+		<string>{118, 831}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/images</string>
+			<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
