@@ -189,7 +189,7 @@ hr {
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
-	padding: 20px 35px 45px 25px;
+	padding: 20px 35px 45px -5px;
 }
 
 /* Content */
@@ -197,7 +197,7 @@ hr {
 #content {
 	float: left;
 	width: 650px;
-	margin-top: 35px;
+	margin-top: 55px;
 }
 
 .post {
@@ -241,12 +241,10 @@ hr {
 /* Sidebar */
 
 #sidebar {
-	
-	float: right;
-	width: 244px;
+	width: 200px;
 	position: absolute;
 	left: 800px;
-	bottom: -90px;
+	top: 205px;
 }
 
 #sidebar ul {
@@ -259,11 +257,12 @@ hr {
 #sidebar li {
 	margin-bottom: 40px;
 	padding: 0 15px 0 20px;
+	
 }
 
 #sidebar li li {
 	margin: 0;
-	padding: 5px 0;
+	padding: 6px;
 	border-bottom: 1px solid #E5E5E5;
 }
 
@@ -277,9 +276,16 @@ hr {
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	color: #ff638f;
+	color:  #dcdcdc;	
 }
 
+#sidebarhead {
+		color: #ff638f;
+		font-size: 28px;
+		font-family: 'Snippet', sans-serif;
+
+
+}
 
 /* Footer */
 

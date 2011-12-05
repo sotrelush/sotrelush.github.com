@@ -11,6 +11,8 @@
 
 <script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'04da9d82-e4d5-43ba-b1e9-20fa06a3171b'});</script>
 
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+
 </head>
 
 
@@ -54,18 +56,45 @@
 	<div id="sidebar">
 		<ul>
 			<li>
-				<h2>Connect</h2>
+				<aside id="sidebarhead"> Connect </aside>
 				<ul>
-	           <li><a href="#">facebook</a></li> 
+	           <li><a href="#">Facebook</a></li> 
                <section id='facebookside'> 
               </section>
-				<li><a href="#">twitter</a></li>
-              <section id='tiwtterside'> WIDGET HERE </section>
-              	<li><a href="#">tumblr</a></li>
+				<li><a href="#">Twitter</a></li>
+              <section id='twitterside'> 
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 1,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#dcdcdc',
+      color: '#ff638f'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#707070',
+      links: '#958cd6'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('sotrelush').start();
+</script> </section>
+              	<li><a href="#">Tumblr</a></li>
               <section id='tumblrside'> FWIDGET HERE </section>
-				<li><a href="#">foursquare</a></li>
+				<li><a href="#">Foursquare</a></li>
               <section id='fourside'> WIDGET HERE </section>
-				<li><a href="#">weheartit</a></li>
+				<li><a href="#">Weheartit</a></li>
             <section id='fourside'> WIDGET HERE </section>
 				</ul>
 			</li>
