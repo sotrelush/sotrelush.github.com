@@ -47,11 +47,11 @@ h1 a:hover, h2 a:hover {
 }
 
 h1 {
-	font-size: 38px;
+	font-size: 30px;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 26px;
 }
 
 h3 {
@@ -97,6 +97,7 @@ hr {
 	display: none;
 }
 
+
 /* Logo */
 
 #logo {
@@ -111,7 +112,10 @@ hr {
 	position: relative;
 	float: left;
 }
-
+#logo h1: a {
+	
+	
+}
 #logo h1, #logo h2 {
 	margin-right: 0;
 	margin-top: 0;
@@ -119,11 +123,9 @@ hr {
 }
 
 #logo h2 {
-	
-	position: relative;
-	left: 456px;
 	color:  #dcdcdc;
 	font: italic 32px/14px 'Varela Round', sans-serif;
+	padding-left: 492px;
 }
 
 #logo a {
@@ -145,22 +147,30 @@ hr {
 #logopink{
 	color: #ff638f;
 }
+#logogrey{
+	color: #6a6a6a;
+}
 
 
 /* Main Nav */
 
-#mainnav {
-	position: absolute;
-	width: 534px;
-	height: 32px;
-	background: #dcdcdc no-repeat;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	top: 140px;
-	margin-top: 20px;
-	left: 164px;
+#headerwrap {
+	position: relative;
+	padding-left: 90px;
+	right: 65px;
 }
-	
+
+#mainnav {
+width: 534px;
+height: 32px;
+background: gainsboro no-repeat;
+-moz-border-radius: 15px;
+border-radius: 15px;
+top: 140px;
+margin-top: 10px;
+float: left;
+}
+
 #mainnav ul {
 	list-style: none;
 	margin-left: 33px;
@@ -187,9 +197,9 @@ hr {
 /* Page */
 
 #wrapper {
-	width: 960px;
-	margin: 0 auto;
-	padding: 20px 35px 45px -5px;
+width: 960px;
+margin: 0 auto;
+position: relative;
 }
 
 /* Content */
@@ -197,10 +207,12 @@ hr {
 #content {
 	float: left;
 	width: 650px;
-	margin-top: 55px;
+	margin-top: 30px;
+	margin-left: 10px;
 }
 
 .post {
+	
 }
 
 .post .title {
@@ -241,10 +253,8 @@ hr {
 /* Sidebar */
 
 #sidebar {
-	width: 200px;
-	position: absolute;
-	left: 800px;
-	top: 205px;
+width: 200px;
+float: left;
 }
 
 #sidebar ul {
@@ -256,46 +266,43 @@ hr {
 
 #sidebar li {
 	margin-bottom: 40px;
-	padding: 0 15px 0 20px;
+	padding: 0 10px 0 20px;
 	
 }
 
 #sidebar li li {
 	margin: 0;
-	padding: 6px;
+	margin-bottom: 14px;
+	padding: 3px;
 	border-bottom: 1px solid #E5E5E5;
 }
 
 #sidebar li h2 {
 	font-family: 'Snippet', sans-serif;
 	margin-bottom: 15px;
-	font-size: 28px;
+	font-size: 26px;
 	
 }
 #sidebar a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: bold;
 	color:  #dcdcdc;	
 }
 
 #sidebarhead {
 		color: #ff638f;
-		font-size: 28px;
+		font-size: 24px;
 		font-family: 'Snippet', sans-serif;
-
-
+	padding-bottom: 12px;
 }
 
 /* Footer */
 
 #footer {
-	clear: both;
 	width: 870px;
 	height: 50px;
 	margin: 0 auto;
-	padding: 35px 45px;
-
 }
 
 #footer p {
@@ -312,11 +319,8 @@ hr {
 	float: left;
 }
 
-#footer .credit {
-	float: right;
-}
-
 #backimage {
-	float: left;
+position: absolute;
+	left: -119px;
 }
 
