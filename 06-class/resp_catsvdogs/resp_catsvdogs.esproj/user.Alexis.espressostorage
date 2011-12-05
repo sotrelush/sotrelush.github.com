@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1095, 688}</string>
+		<string>{1109, 699}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/catsvdogs.esproj/</string>
+		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/06-class/resp_catsvdogs/resp_catsvdogs.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{118, 831}</string>
+		<string>{167, 841}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -32,11 +32,11 @@
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>URL</key>
-				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
+				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/06-class/resp_catsvdogs/index.html</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/baseline.css</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/06-class/resp_catsvdogs/baseline.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
