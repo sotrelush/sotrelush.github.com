@@ -31,20 +31,14 @@
 		<key>Tabs</key>
 		<array>
 			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>URL</key>
-				<string>file:///Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
+				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/index.html</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Dropbox/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/baseline.css</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/catsvdogs/baseline.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

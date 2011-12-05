@@ -7,20 +7,22 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1095, 688}</string>
+		<string>{1106, 705}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/catsvdogsfonts.esproj/</string>
+		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/exercise2/Robots.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{39, 842}</string>
+		<string>{133, 812}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
-		<array/>
+		<array>
+			<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/exercise2/images</string>
+		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
@@ -30,19 +32,21 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/07-class-type/catsvdogs-fonts/baseline.css</string>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/exercise2/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
+				<key>URL</key>
+				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/exercise2/index.html</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/04-class-css/exercise2/style.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>

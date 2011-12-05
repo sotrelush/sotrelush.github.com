@@ -50,3 +50,79 @@ table {
 	border-spacing: 0;
 }
 
+.top-nav {
+	position: absolute;
+	left: 200px;
+	top: 67px;
+	visibility: visible;
+	overflow: visible;
+	display: inline-block;
+}
+
+body {
+	
+}
+
+p {
+	
+}
+
+h1{
+	
+}
+
+h2 {
+	
+}
+
+.site-wrapper {
+	width: 960px;
+	position: absolute;
+}
+.site-header {
+	width: 960px;
+	height: 40px;
+	padding: 0;
+	position: relative;
+}
+
+
+
+
+
+nav#top-nav a {
+	color:rgb(116,73,24);
+	text-decoration: none;
+	font: 10px arial;
+}
+.Main-menu {
+	
+}
+
+.sidebar {
+	
+}
+
+.content {
+	
+}
+
+.page {
+	
+}
+
+.footer-wrapper {
+	
+}
+
+.site-footer {
+	
+}
+
+.footer-follow {
+	
+}
+
+.logoimg {
+	width: 200px;
+}
