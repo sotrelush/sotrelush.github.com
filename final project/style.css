@@ -28,7 +28,7 @@
 
 
 body {
-	background: #FFFFFF url(images/tylabackground.png) repeat-y fixed;
+	background: #FFFFFF repeat-y fixed;
 	font-family: 'Varela Round', 'Tahoma', sans-serif;	font-size: 14px;
 	color: #6a6a6a;
 }
@@ -102,10 +102,9 @@ hr {
 #logo {
 	position: relative;
 	padding-top: 14px;
-	padding-bottom: 16px;
 	width: 870px;
 	height: 126px;
-	margin: 0 auto;
+	padding-bottom: 16px;
 }
 
 #logo h1 {
@@ -114,10 +113,13 @@ hr {
 }
 
 #logo h1, #logo h2 {
-	margin: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-left: 0;
 }
 
 #logo h2 {
+	
 	position: relative;
 	left: 456px;
 	color:  #dcdcdc;
@@ -148,32 +150,31 @@ hr {
 /* Main Nav */
 
 #mainnav {
-	position: relative;
-	width: 634px;
+	position: absolute;
+	width: 534px;
 	height: 32px;
-	margin: 0 auto;
 	background: #dcdcdc no-repeat;
 	-moz-border-radius: 15px;
-border-radius: 15px;
-	top: 9px;
-	right: 136px;
+	border-radius: 15px;
+	top: 140px;
+	margin-top: 20px;
+	left: 164px;
 }
 	
 #mainnav ul {
-	margin: 0;
 	list-style: none;
-	line-height: normal;
-	top: 200px;
+	margin-left: 33px;
+	position: relative;
+	bottom: 16px;
 }
 
 #mainnav li {
 	float: left;
-	padding: 0px 0px 30px 52px;
-	line-height: 32px;
-
+	margin-right: 37px;
 }
 
 #mainnav a {
+	
 	text-decoration: none;
 	font-size: 22px;
 	color: #6a6a6a;
@@ -182,12 +183,11 @@ border-radius: 15px;
 	text-decoration: none;
 	color: #958cd6;
 
-
 }
 /* Page */
 
 #wrapper {
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 20px 35px 45px 25px;
 }
@@ -197,6 +197,7 @@ border-radius: 15px;
 #content {
 	float: left;
 	width: 650px;
+	margin-top: 35px;
 }
 
 .post {
@@ -240,8 +241,12 @@ border-radius: 15px;
 /* Sidebar */
 
 #sidebar {
+	
 	float: right;
 	width: 244px;
+	position: absolute;
+	left: 800px;
+	bottom: -90px;
 }
 
 #sidebar ul {
@@ -254,9 +259,6 @@ border-radius: 15px;
 #sidebar li {
 	margin-bottom: 40px;
 	padding: 0 15px 0 20px;
-}
-
-#sidebar li ul {
 }
 
 #sidebar li li {
@@ -307,3 +309,8 @@ border-radius: 15px;
 #footer .credit {
 	float: right;
 }
+
+#backimage {
+	float: left;
+}
+
