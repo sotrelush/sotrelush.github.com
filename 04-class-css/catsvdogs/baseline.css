@@ -68,7 +68,9 @@ table {
 }
  
 .clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
+html[xmlns] 
+
+.clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 body {
@@ -135,7 +137,7 @@ ul {
 }
 
 #blogposts {
-	position: absolute;
+	position: relative;
 	margin-left: 30px;
 	margin-top: 0px;
 }
@@ -146,19 +148,20 @@ ul {
 	padding: 5px;
 }
 #floatright {
-	position: relative;
-	left: 670px;
-    top: 380px;
 	font-size: 10px;
-	padding: 10px;
+	float: right;
+	margin-right: 90px;
+	bottom: 44px;
 }
 
 #floatleft {
-	position: relative;
-    margin-left:20px;
-	font-size: 11px;
-	padding: 10px;
-	top: 410px;
+	font-size: 10px;
+	float: left;
+	left: 35px;
 }
 
-
+footer {
+	clear: both;
+	position:relative;
+	margin-top: 30px;
+}

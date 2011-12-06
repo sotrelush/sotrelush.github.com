@@ -177,18 +177,15 @@ ul {
 	margin-right: 30px;
 	padding: 5px;
 }
-#floatright {
-	position: relative;
-	left: 670px;
-    top: 380px;
+#floatleft {
 	font-size: 10px;
-	padding: 10px;
+	float: left;
+	left: 35px;
 }
 
-#floatleft {
-	position: relative;
-    margin-left:20px;
-	font-size: 11px;
-	padding: 10px;
-	top: 410px;
+footer {
+	clear: both;
+	position:relative;
+	margin-top: 30px;
 }
+
