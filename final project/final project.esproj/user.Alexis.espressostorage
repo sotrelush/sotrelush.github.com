@@ -7,9 +7,9 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1309, 635}</string>
+		<string>{1316, 633}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/final%20project.esproj/</string>
+		<string>file://localhost/Users/Alexis/Desktop/github/final%20project/final%20project.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/images</string>
+			<string>file://localhost/Users/Alexis/Desktop/github/final%20project</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -31,24 +31,14 @@
 		<key>Tabs</key>
 		<array>
 			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/Desktop/github/final%20project/index.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
-				<key>URL</key>
-				<string>file:///Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/index.html</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/AMONETTE/School/Web%20Design/sotrelush.github.com/final%20project/style.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>
