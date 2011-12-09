@@ -7,9 +7,9 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1316, 633}</string>
+		<string>{1152, 643}</string>
 		<key>ProjectURL</key>
-		<string>file://localhost/Users/Alexis/Desktop/github/final%20project/final%20project.esproj/</string>
+		<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/final%20project.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/Alexis/Desktop/github/final%20project</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/css</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -39,6 +39,16 @@
 			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/preview.html</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/css/mosaic.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>
