@@ -13,7 +13,7 @@
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{72, 831}</string>
+		<string>{201, 795}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -21,12 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/css</string>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/images</string>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/img</string>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/js</string>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/lib</string>
-			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/sliderimages</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/icons</string>
 			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/styles</string>
 		</array>
 	</dict>
@@ -42,7 +37,7 @@
 				<key>Title</key>
 				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
 				<key>URL</key>
-				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/blog.html</string>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/index.html</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
@@ -91,6 +86,44 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/style.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/index.html</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/index.html</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/index.html</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/about.html</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/send_form_email.php</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
