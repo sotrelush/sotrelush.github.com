@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1152, 643}</string>
+		<string>{1233, 647}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/final%20project.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{75, 840}</string>
+		<string>{72, 831}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -22,6 +22,12 @@
 		<key>ExpandedURLs</key>
 		<array>
 			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/css</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/images</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/img</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/js</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/lib</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/sliderimages</string>
+			<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/styles</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -31,8 +37,40 @@
 		<key>Tabs</key>
 		<array>
 			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
+				<key>Title</key>
+				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<key>URL</key>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/blog.html</string>
+			</dict>
+			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/Desktop/github/final%20project/index.html</string>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/styles/base.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/styles/tooltip.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/styles/simple.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/about.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/blog.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -42,11 +80,17 @@
 				<key>Title</key>
 				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
 				<key>URL</key>
-				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/preview.html</string>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/blog.html#tagcloud</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/css/mosaic.css</string>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/index.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/style.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

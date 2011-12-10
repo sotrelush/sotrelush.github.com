@@ -77,6 +77,7 @@ a {
 
 a:hover {
 	text-decoration: none;
+	font-style: italic;
 }
 
 a img {
@@ -105,17 +106,14 @@ hr {
 	padding-top: 14px;
 	width: 870px;
 	height: 126px;
-	padding-bottom: 16px;
+	padding-bottom: 10px;
 }
 
 #logo h1 {
 	position: relative;
 	float: left;
 }
-#logo h1: a {
-	
-	
-}
+
 #logo h1, #logo h2 {
 	margin-right: 0;
 	margin-top: 0;
@@ -124,8 +122,8 @@ hr {
 
 #logo h2 {
 	color:  #dcdcdc;
-	font: italic 32px/14px 'Varela Round', sans-serif;
-	padding-left: 492px;
+	font: italic 29px/14px 'Varela Round', sans-serif;
+	padding-left: 460px;
 }
 
 #logo a {
@@ -161,7 +159,7 @@ hr {
 }
 
 #mainnav {
-width: 534px;
+width: 584px;
 height: 32px;
 background: gainsboro no-repeat;
 -moz-border-radius: 15px;
@@ -173,7 +171,7 @@ float: left;
 
 #mainnav ul {
 	list-style: none;
-	margin-left: 33px;
+	margin-left: 53px;
 	position: relative;
 	bottom: 16px;
 }
@@ -188,6 +186,8 @@ float: left;
 	text-decoration: none;
 	font-size: 22px;
 	color: #6a6a6a;
+	font-style: normal;
+	font-weight: normal;
 }
 #mainnav a:hover {
 	text-decoration: none;
@@ -206,9 +206,9 @@ position: relative;
 
 #content {
 	float: left;
-	width: 650px;
+	width: 600px;
 	margin-top: 30px;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .post {
@@ -225,84 +225,139 @@ position: relative;
 .post .title a {
 	color: #ff638f;
 	padding: 0 20px;
+	font-size: 24px;
+		font-style: normal;
 
+	
+}
+
+.post .title a: hover {
+	
+	padding: 0 20px;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .post .entry {
 	padding: 0 20px;
+	font-size: 14px;
+	
 }
 .post h3 {
-		margin: 10px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
+	font-size: 14px;
+	
 }
 .post .other {
 	font-style:italic;
 	height: 47px;
-	margin: 10px 0px 5px 20px;
-	line-height: normal;
+	margin: 20px 0px 5px 20px;
 }
 .post .other a {
-	color: #414141;
-	font-style: italic;
+	color: #dcdcdc;
+	font: normal normal 18px 'Snippet', sans-serif;
 }
 
-.post .other a: hover {
-	color: #958cd6;
+.post .other a:hover {
+	color: #ff638f;
 	font-style: italic;
 	
 }
 /* Sidebar */
 
 #sidebar {
-width: 200px;
+width: 230px;
 float: left;
+font-size: 12px;
+	margin-top: -4px;
 }
 
 #sidebar ul {
-	margin: 0;
-	padding: 0;
+	
 	list-style: none;
 	line-height: normal;
+	margin-right: 0;
+	margin-top: 0;
+	margin-left: 0;
+	
 }
 
 #sidebar li {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	padding: 0 10px 0 20px;
 	
 }
 
 #sidebar li li {
-	margin: 0;
-	margin-bottom: 14px;
-	padding: 3px;
-	border-bottom: 1px solid #E5E5E5;
+	padding-left: 2px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0px;
 }
 
 #sidebar li h2 {
 	font-family: 'Snippet', sans-serif;
-	margin-bottom: 15px;
 	font-size: 26px;
-	
 }
 #sidebar a {
 	text-decoration: none;
-	font-size: 14px;
-	font-weight: bold;
-	color:  #dcdcdc;	
+	font-size: 12px;
+	color:  #dcdcdc;
+
+}
+#sidebar a:hover {
+	text-decoration: none;
+	color: #958cd6;
+	font-style: normal;
 }
 
 #sidebarhead {
 		color: #ff638f;
-		font-size: 24px;
+		font-size: 28px;
 		font-family: 'Snippet', sans-serif;
+		border-bottom: 1px solid #E5E5E5;
+		margin-bottom: 6px;
+}
+
+#socialside{
+	padding-bottom: 7px;
+	padding-left: 10px;
+
+}
+#socialside a {
+
+		color:  #ff638f;
+	font-size: 12px;
+	padding-bottom: px;
+	line-height: 18px;
+}
+
+
+#socialheads a {
+		color: #dcdcdc;
+		font-size: 16px;
 	padding-bottom: 12px;
+		font-weight: bold;
+
+	
+
+}
+
+#socialheads a: hover {
+	color: #ff638f;
+	
+
 }
 
 /* Footer */
 
 #footer {
+	
 	width: 870px;
 	height: 50px;
-	margin: 0 auto;
+	padding-top: 80px;
+	margin-left: 29px;
 }
 
 #footer p {
@@ -321,7 +376,19 @@ float: left;
 
 #backimage {
 position: absolute;
-	left: -119px;
+	left: -130px;
 }
 
-.details{ margin:15px 20px; }	
+.details{ margin:15px 20px; }
+
+
+
+#sliderheader {
+		color: #ff638f;
+		margin-bottom: 10px;
+			margin-top: -20px;
+			
+
+	font: 36px 'Snippet', sans-serif;
+	margin-left: 15px;
+}

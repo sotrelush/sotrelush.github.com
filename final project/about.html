@@ -13,9 +13,21 @@
 
 <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 
+<link rel="stylesheet" href="css/mosaic.css" type="text/css" media="screen" />
 
-	
-		
+<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+
+<script type="text/javascript">  
+			
+			jQuery(function($){
+				
+				$('.circle').mosaic({
+					opacity		:	0.8			//Opacity for overlay (0-1)
+				});
+				
+		    });
+		    
+		</script>
 		
 		<link href="css/jquery.tweet.css" rel="stylesheet"/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -48,14 +60,8 @@
 		    });
 		  </script>
 		  
-	  
-	  <link type="text/css" href="styles/bottom.css" rel="stylesheet" />
-	  <script type="text/javascript" src="js/jquery.pikachoose.js"></script>
-	  <script language="javascript">
-	  	$(document).ready(function (){
-	  			$("#pikame").PikaChoose({showTooltips:false});
-	  		});
-	  </script>	
+		  		<script src="js/jquery.feedfetcher.v0.95b.js"></script>
+		  
 
 </head>
 
@@ -71,12 +77,11 @@
 
 <nav id="mainnav">
 	<ul>
-		<li class="first"><a href="index.html" title="">home</a></li>
-		<li><a href="blog.html" title="">blog</a></li>
-		<li><a href="about.html" title="">about</a></li>
-		<li><a href="press.html" title="">press</a></li>
-		<li><a href="http://feeds.feedburner.com/Tylatechgenius" title="">subscribe</a></li>
-		
+<li class="first"><a href="index.html" title="">home</a></li>
+<li><a href="blog.html" title="">blog</a></li>
+<li><a href="about.html" title="">about</a></li>
+<li><a href="press.html" title="">press</a></li>
+<li><a href="http://feeds.feedburner.com/Tylatechgenius" title="">subscribe</a></li>
 	</ul>
 </nav>
 <hr />
@@ -84,23 +89,15 @@
 </div>
 
   <div id="content">
-  
 		<div class="post">
-		
-		  			<div id="sliderheader">The Latest</div>
-			<div class="pikachoose">
-				<ul id="pikame" >
-					<li><a href="http://www.pikachoose.com"><img src="sliderimages/1.jpg"/></a><span>This is an example of the basic theme.</span></li>
-					<li><a href="http://www.pikachoose.com"><img src="sliderimages/2.jpg"/></a><span>jCarousel is supported and can be integrated with PikaChoose!</span></li>
-					<li><a href="http://www.pikachoose.com"><img src="sliderimages/3.jpg"/></a><span>Be sure to check out <a href="http://www.pikachoose.com">PikaChoose.com</a> for updates.</span></li>
-					<li><a href="http://www.pikachoose.com"><img src="sliderimages/4.jpg"/></a><span>Be sure to check out <a href="http://www.pikachoose.com">PikaChoose.com</a> for updates.</span></li>
-					
-				</ul>
+			<div class="entry">
+						<h2 class="title">Tyla Simmons</h2>
+			
+			<img src="images/tyla.png" class="left" />
+				<p>I love my iPad! I love to jab my sticky little fingers at its screen, love to drool over its elegant glass and aluminum curves and drop it onto floors, hard tiles and soft carpet. Clearly, I should be kept away from my iPad. But if you have kids, and you’re willing to let them use your $500+ tablet for such reasons as education and development, then you might like to spend yet more money on the Crayola iMarker.</p>
 			</div>
-			
-			
-			
-					</div>
+
+		</div>
 	</div>
 	
     
@@ -108,38 +105,47 @@
 	<div id="sidebar">
 		<ul>
 			<li>
-				<aside id="sidebarhead"> Tweet Feed </aside>
+				<aside id="sidebarhead"> Contact </aside>
 				<ul>
 	           <li>
               <section id='socialside'> 
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 200,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#e3e3e3',
-      color: '#808080'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#6a6a6a',
-      links: '#ff638f'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    behavior: 'all'
-  }
-}).render().setUser('sotrelush').start();
-</script>
+<form name="contactform" method="post" action="send_form_email.php">
+<table width="200px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">Name</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="10" size="20">
+ </td>
+</tr>
+ 
+ <tr>
+ <td valign="top">
+  <label for="email">Email Address</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="20">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Message</label>
+ </td><br><br>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="15" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <br><input type="submit" value="Submit"> 
+ </td>
+</tr>
+</table>
+</form>
+</div>
  </section>
 
 		
