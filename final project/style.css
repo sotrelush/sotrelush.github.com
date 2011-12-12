@@ -87,11 +87,18 @@ a img {
 img.left {
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 20px;
+		margin-top: 5px;
+
 }
 
 img.right {
 	float: right;
 	margin-right: 20px;
+		margin-top: 5px;
+
+	margin-bottom: 20px;
+
 }
 
 hr {
@@ -407,3 +414,35 @@ position: absolute;
 	font: 36px 'Snippet', sans-serif;
 	margin-left: 15px;
 }
+
+.addthis1 
+{
+	
+	margin-left: 440px;
+	margin-top: -10px;
+}
+
+/* @group My Group */
+
+
+
+/* @end */
+
+.readmore {
+		color: #ff638f;
+		font-size: 22px;
+		font-family: 'Snippet', sans-serif;
+		border-bottom: 1px solid #E5E5E5;
+		margin-left: 418px;
+	margin-top: -20px;
+} 
+
+#tags a {
+			color: #dcdcdc;
+	margin-right: 10px;
+	line-height: 40px;
+}
+
+#tags a:hover {
+		color: #ff638f;
+		}
