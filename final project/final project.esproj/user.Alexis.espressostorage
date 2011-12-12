@@ -128,9 +128,9 @@
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>Title</key>
-				<string>Tyla Tech Genius: Kid Blogger Extraordinaire</string>
+				<string>Failed to open page</string>
 				<key>URL</key>
-				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/blog.html</string>
+				<string>file:///Users/Alexis/sotrelush.github.com/final%20project/%3Ca%20href=</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
@@ -187,6 +187,10 @@
 				<string>file://localhost/Users/Alexis/sotrelush.github.com/final%20project/littlemommypost.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
 			</dict>
 			<dict>
 				<key>StateType</key>
